@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#text{
+    position: absolute;
+    font-family: "The Heart of Everything Demo";
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+#text h1{
+    font-size: 350px;
+    font-weight: 700;
+    color: rgb(214, 211, 211);
+}
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 8%;
+    /* background-color: red; */
+}
+
+#nleft{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    font-family: Gilroy;
+    color: rgb(129, 129, 1);
+    /* background-color: black; */
+}
+
+#nleft i{
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+#nleft h2{
+    font-weight: 500;
+    margin-left: 80px;
+}
+
+#nright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+#cir{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1610629737680-8a6daf3dadf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80);
+    background-size: cover;
+    margin-right: 20px;
+}
+
+#nright i{
+    font-size: 25px;
+    color: black;
+}
+#bottom{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+    bottom: 0;
+    left: 0;
+}
+
+#btmleft{
+    position: relative;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(75, 75, 75);
+}
+
+#btmright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+    background-color: rgb(105, 105, 105);
+}
+
+#r1{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
+
+#r2{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
+
+#r3{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
+
+#t1,#t2,#t3{
+    position: absolute;    
+    right: 10%;
+    top: 25%;
+    color: white;
+}
+
+#t1 h2,#t2 h2,#t3 h2{
+    margin-bottom: 5px;
+    font-family: Gilroy;
+    font-weight: 500;
+}
+
+#t1 h3,#t2 h3,#t3 h3{
+    font-family: Gilroy;
+    font-weight: 500;
+}
+
+#r1 img,#r2 img,#r3 img{
+    width: 110px;
+}
+
+#r1 img{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+#r2 img{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#r3 img{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+#t0{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-family: Gilroy;
+}
+
+#t0 h1{
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+}
+
+#t0 h2{
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#sofa{
+    position: absolute;
+    top: 20%;
+    width: 15%;
+    height: 40%;
+    background-image: url("photo.png");
+    background-size: cover;
+    /* background-color: black; */
+    left: -5%;
+}
+
+#chair{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 580px;
+}
+
+#rtext{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    font-family: Gilroy;
+    color: rgb(212, 212, 60);
+}
+
+#rtext h1{
+    font-size: 50px;
+}
+
+#b1,#b2,#b3,#b4{
+    color: rgb(52, 52, 216);
+}
+
+#b3,#b4,#b5,#b6{
+    font-weight: 300;
+}
+
+#b7{
+    color: orangered;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+#circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -8%;
+    margin-left: 90px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: orangered;
+}
+
+#circle i{
+    color: white;
+    font-size: 35px;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 18%;
+    right: 0%;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 185, 7);
+    z-index: 1;
+}
+
+#box i{
+    font-size: 30px;
+    color: white;
+}
+
+#star{
+    position: absolute;
+    font-size: 35px;
+    right: 10%;
+    bottom: 1%;
+}
